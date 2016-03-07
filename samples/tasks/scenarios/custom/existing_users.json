@@ -1,0 +1,23 @@
+{
+  "type": "ExistingCloud",
+  "auth_url": "http://10.0.0.3:5000/v2.0",
+  "region_name": "RegionOne",
+  "endpoint_type": "public",
+  "admin": {
+    "username": "admin",
+    "password": "1234qwer",
+    "tenant_name": "admin"
+  },
+  "users": [
+    {
+      "username": "user1",
+      "password": "1234qwer",
+      "tenant_name": "admin"
+    },
+    {
+      "username": "user2",
+      "password": "1234qwer",
+      "tenant_name": "admin"
+    }
+  ]
+}
